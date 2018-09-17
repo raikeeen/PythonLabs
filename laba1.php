@@ -17,14 +17,14 @@
 </form>
 <div>
     <?php /**/
-    $value = $_POST['temp'];
+    $value = $_POST['temp'];/*Получаем переменные из post запросов*/
     $a=$_POST['number'];
-    if($a==='ф')
+    if($a==='ф') /*переводим из цельсия в фаренгейты*/
 
         $value*=9/5+32;
-    else
+    else /* переводим из фаренгейтов в цельсия*/
         $value=($value-32)*5/9;
-    echo $value;
+    echo $value; /*вывод на сайт*/
     ?>
 </div>
 
