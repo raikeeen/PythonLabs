@@ -1,4 +1,23 @@
-<!DOCTYPE html>
+<?php
+session_start(); //начало сессии
+if (!$_SESSION['start']) {
+    $_SESSION['rand']=rand(1,100);
+    $_SESSION['start']=true;
+}
+if (isset($_POST['num']))
+{
+    if ($_POST['num'] > $_SESSION['rand']) {
+        $a = "Больше";
+    } elseif ($_POST['num'] < $_SESSION['rand']) {
+        $a = "Меньше";
+    } else {
+        $a = "Правильно!!!";
+        $_SESSION['start'] = false;
+    }
+}
+else $a='';
+
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,26 +26,17 @@
     <link rel="stylesheet" type="text/css" href="style/123.css" />
 </head>
 <body>
-<h1>Угадай число</h1>
-<form method="POST" >
-    Введи число <input type="text" name="num" >
+
+<h1>Загадайте число от 1 до 100</h1>
+<form method="POST">
+    Введите число <input type="text" name="num" >
 
     <br>
     <hr>
     <input type="submit" value="OK">
 </form>
 <div>
-    <?php /**/
-    $value = $_POST['num'];/*Получаем переменные из post запросов*/
-
-    if($a==='ф') /*переводим из цельсия в фаренгейты*/
-
-        $value*=9/5+32;
-    else /* переводим из фаренгейтов в цельсия*/
-        $value=($value-32)*5/9;
-    echo $value; /*вывод на сайт*/
-    ?>
+    <h2>   <?php echo $a."<br>"; ?> </h2>
 </div>
-
 </body>
 </html>
