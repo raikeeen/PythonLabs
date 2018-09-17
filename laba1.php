@@ -1,37 +1,32 @@
-<?
-/**
- * Created by PhpStorm.
- * User: raiken
- * Date: 15.09.18
- * Time: 13:25
- */?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Конвентер</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="style/123.css" />
 </head>
 <body>
-<h1 align="center">Конвентер температур</h1>
-<p>Введите температуру</p>
-<input type="text" size="40">
-<? ?>
+<h1>Конвентер температур</h1>
+<form method="POST" >
+    Температура: <input type="text" name="temp" >
+    Система изменерия: <input type="text" name="number">
+    <br>
+    <hr>
+    <input type="submit" value="OK">
+</form>
+<div>
+    <?php /**/
+    $value = $_POST['temp'];
+    $a=$_POST['number'];
+    if($a==='ф')
+
+        $value*=9/5+32;
+    else
+        $value=($value-32)*5/9;
+    echo $value;
+    ?>
+</div>
 
 </body>
 </html>
-
-
-$temp = fgets(STDIN, 255); //$number
-echo 'Введите во что перевести в фаренгейты F или цельсия C';
-$a=fgets(STDIN, 255);
-if($a==='F')
-{
-    $temp*=9/5+32;
-    echo 'В системе измерения по Фаренгейту температура = $temp';
-}
-else
-    {
-
-    $temp=($temp-32)*5/9;
-    echo 'В системе измерения по Цельсию температура = $temp';
-}
-
