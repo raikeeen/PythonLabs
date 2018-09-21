@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2f6a04-63ea-4fe4-9e73-8e79f47c0b66" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/laba4.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/laba3.php" afterPath="$PROJECT_DIR$/laba3.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,12 +45,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laba3.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laba3.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laba3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="540">
+              <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="laba4.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laba4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <marker date="1537521498950" expanded="true" signature="173:624" ph="..." />
+                <marker date="1537521498950" expanded="true" signature="180:308" ph="..." />
+                <marker date="1537521498950" expanded="true" signature="315:624" ph="..." />
+                <marker date="1537521498950" expanded="true" signature="368:595" ph="..." />
+                <marker date="1537521498950" expanded="true" signature="601:624" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +92,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/laba1.php" />
         <option value="$PROJECT_DIR$/laba2.php" />
+        <option value="$PROJECT_DIR$/laba4.php" />
         <option value="$PROJECT_DIR$/laba3.php" />
       </list>
     </option>
@@ -156,12 +174,12 @@
       <workItem from="1537007220620" duration="1344000" />
       <workItem from="1537186399090" duration="5083000" />
       <workItem from="1537517823542" duration="22000" />
-      <workItem from="1537519985808" duration="807000" />
+      <workItem from="1537519985808" duration="1690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9358000" />
+    <option name="totallyTimeSpent" value="10241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1338" height="697" extended-state="0" />
@@ -374,9 +392,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laba3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="540">
+          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laba4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <marker date="1537521498950" expanded="true" signature="173:624" ph="..." />
+            <marker date="1537521498950" expanded="true" signature="180:308" ph="..." />
+            <marker date="1537521498950" expanded="true" signature="315:624" ph="..." />
+            <marker date="1537521498950" expanded="true" signature="368:595" ph="..." />
+            <marker date="1537521498950" expanded="true" signature="601:624" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
