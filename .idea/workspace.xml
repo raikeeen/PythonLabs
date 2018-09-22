@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2f6a04-63ea-4fe4-9e73-8e79f47c0b66" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/laba5.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/laba2.php" afterPath="$PROJECT_DIR$/laba2.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laba2.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="laba2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laba2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -70,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laba5.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laba5.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laba5.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
@@ -100,10 +99,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/laba1.php" />
-        <option value="$PROJECT_DIR$/laba2.php" />
         <option value="$PROJECT_DIR$/laba4.php" />
         <option value="$PROJECT_DIR$/laba3.php" />
         <option value="$PROJECT_DIR$/laba5.php" />
+        <option value="$PROJECT_DIR$/laba2.php" />
       </list>
     </option>
   </component>
@@ -184,12 +183,12 @@
       <workItem from="1537007220620" duration="1344000" />
       <workItem from="1537186399090" duration="5083000" />
       <workItem from="1537517823542" duration="22000" />
-      <workItem from="1537519985808" duration="4395000" />
+      <workItem from="1537519985808" duration="4553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12946000" />
+    <option name="totallyTimeSpent" value="13104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
@@ -400,14 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laba2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laba4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -426,6 +417,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laba2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>

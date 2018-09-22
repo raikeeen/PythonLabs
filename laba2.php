@@ -7,9 +7,9 @@ if (!$_SESSION['start']) {
 if (isset($_POST['num']))
 {
     if ($_POST['num'] > $_SESSION['rand']) {
-        $a = "Больше";
-    } elseif ($_POST['num'] < $_SESSION['rand']) {
         $a = "Меньше";
+    } elseif ($_POST['num'] < $_SESSION['rand']) {
+        $a = "Больше";
     } else {
         $a = "Правильно!!!";
         $_SESSION['start'] = false;
